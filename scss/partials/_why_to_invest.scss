@@ -1,0 +1,77 @@
+.why_invest_wrapper{
+  background-color: $paleGrey;
+  background-image: url(./../img/silver-circle.svg);
+  background-repeat: no-repeat;
+  background-position:calc(100% + 100px) 0%;
+  position: relative;
+}
+
+.logos-label{
+  position: relative;
+  background-color: $white;
+  height: 70px;
+  display: flex;
+  border-bottom-left-radius: 20px;
+  padding-right: 15px;
+  margin-left: 15px;
+  top: -35px;
+  z-index: 100;
+}
+
+.logo_box{
+  padding-left: 15px;
+  margin: auto;
+  align-self: center;
+}
+
+.why_invest{
+  padding-top: 25px;
+}
+
+.why_invest h3{
+  color: $darkIndigo;
+  font-family: op-sb;
+  max-width: 250px;
+  line-height: 40px; 
+}
+
+.why_invest p{
+  color: $darkIndigo;
+  font-family: op-reg;
+  line-height: 23px;
+  font-size: 16px;
+}
+
+.why_invest p+p{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: $heather;
+}
+
+.for-advertizers div{
+  margin-bottom: 20px;
+}
+
+.for-advertizers div:first-of-type, .for-affiliates div:first-of-type{
+  background-color: $white;
+  padding: 20px 20px 25px 20px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: $darkIndigo;
+}
+
+.advertizers-affiliates p{
+margin-bottom: 25px;
+}
+
+.advertizers-affiliates a{
+  color: $lightRed;
+}
+
+.red-arrow{
+  margin-left: 20px;
+}
+ 

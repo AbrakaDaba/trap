@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50">
+	<defs>
+		<clipPath id="clip_0">
+			<rect x="-1041" y="-1125" width="1440" height="3597" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_0)">
+		<path fill="rgb(255,212,32)" stroke="none" d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z"/>
+	</g>
+	<defs>
+		<clipPath id="clip_1">
+			<rect x="14.5" y="23.5" width="22" height="17" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_1)">
+		<path fill="none" stroke="rgb(255,255,255)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1.19249e-08 1 -1 1.19249e-08 36.5 23.5)" d="M0 0L17 0L17 22L0 22L0 0Z"/>
+	</g>
+	<defs>
+		<clipPath id="clip_2">
+			<path d="M25.5 30C28.5376 30 31 27.5376 31 24.5C31 24.1585 30.9689 23.8243 30.9093 23.5L20.0907 23.5C20.0312 23.8243 20 24.1585 20 24.5C20 27.5376 22.4625 30 25.5 30Z" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_2)">
+		<path fill="none" stroke="rgb(255,255,255)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(20.019 23.5)" d="M10.981 1C10.981 4.03757 8.51855 6.5 5.48098 6.5C2.44342 6.5 -0.0190154 4.03757 -0.0190154 1C-0.0190154 0.658504 0.0121079 0.324276 0.0716727 -1.33227e-15L10.8903 0C10.9499 0.324276 10.981 0.658504 10.981 1Z" fill-rule="evenodd"/>
+	</g>
+	<defs>
+		<clipPath id="clip_3">
+			<rect x="-1041" y="-1125" width="1440" height="3597" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_3)">
+		<path fill="none" stroke="rgb(255,255,255)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(20 9)" d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z"/>
+	</g>
+
+</svg>

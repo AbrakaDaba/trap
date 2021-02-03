@@ -1,0 +1,150 @@
+.header-and-intro {
+  background-color: $purpleBlue;
+  color: $white;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  padding-top: 15px;
+  padding-bottom: 65px;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.navbar-brand {
+  padding: 0;
+  height: 38px;
+}
+
+.navbar-header {
+  float: none;
+}
+
+h1 {
+  font-size: 0px;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.navbar-toggle {
+  padding: 0;
+  margin-top: 7px;
+  margin-right: 0;
+}
+
+.navbar-collapse {
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  text-align: center;
+}
+
+.nav li a {
+  color: $white;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.nav li a:last-child {
+  padding-right: 0;
+}
+
+.intro-wrapper {
+  padding-bottom: 30px;
+}
+
+.modern-age h2 {
+  font-family: op-sb;
+  font-size: 40px;
+  max-width: 350px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  line-height: 40px;
+}
+
+.modern-age p {
+  font-family: op-reg;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.modern-age button {
+  width: calc((100% - 5px) - 33.3%);
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  background-color: $lightRed;
+  border: 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.modern-age button:hover{
+  background-color:rgba(255, 71, 71, 0.75);
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+
+.photo-box div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  display: inline-block;
+}
+
+
+.photo-box .first-photo {
+  background-image: url(../img/vaughan.png);
+  height: 260px;
+  width: 100%;
+  max-width: 497px;
+}
+
+.photo-box .second-photo {
+  background-image: url(../img/warby.png);
+  background-position: center;
+  height: 100px;
+  width: 100%;
+  max-width: 143px;
+}
+
+.photo-box .third-photo {
+  max-width: 150px;
+  background-image: url(../img/Eli_Dean.png);
+  height: 100px;
+  width: 100%;
+}
+
+.photo-box .photo-wrapper:first-of-type {
+  margin: 0;
+  height: auto;
+  padding: 5px;
+  padding-left: 0;
+}
+
+.photo-box .photo-wrapper2 {
+  height: auto;
+  padding: 5px;
+  padding-right: 0;
+}
+
+.photo-box .photo-wrapper3 {
+  max-width: 150px;
+  height: auto;
+  margin-left: calc(66.66% - 150px);
+  padding-right: 5px;
+}

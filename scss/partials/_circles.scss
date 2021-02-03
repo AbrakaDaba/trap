@@ -1,0 +1,58 @@
+.stories .bg-circle, footer .bg-circle, .why_invest_wrapper .bg-circle, .photo-box .bg-circle, header .bg-circle {
+    position: absolute;
+    border: 1px solid $bgCircles;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+  }
+  
+.circle-measures{
+  width: 324px;
+  height: 324px;
+}
+
+  .circle1 { 
+    top: -20px;
+    left: -20px;
+  }
+  
+  .circle2 {
+    bottom: -30px;
+    right: -115px;
+  }
+  
+  .circle3 {
+    width: 77px;
+    height: 77px;
+    right: 120px;
+    bottom: 60px;
+  }
+
+  .main-footer .bg-circle, .stories .bg-circle{
+    border: 1px solid $darkSlateBlue;
+  }
+
+  .main-footer .bg-circle2{
+    width: 424px;
+    height: 424px;
+    left: -150px;
+    bottom: -170px;
+  }
+
+  .stories .bg-circle2{
+    top: 20px;
+    left: -70px;
+  }
+
+  .stories .bg-circle3{
+    bottom: -40px;
+    right: -100px;
+  }
+
+  .main-footer .bg-circle3{
+    top: -284px;
+    right: -100px;
+  }

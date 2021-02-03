@@ -1,0 +1,451 @@
+@media (max-width: 767px) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    background-color: $darkIndigo;
+    background-image: url(./../img/silver-circle.svg);
+    background-repeat: no-repeat;
+    background-position: -21px -75px;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $paleGrey;
+    text-align: left;
+  }
+
+  .navbar-nav>li>a:focus,
+  .navbar-nav>li>a:hover {
+    color: $white;
+    font-family: op-b;
+    font-size: 16px;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+  }
+
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  .collapsing {
+    overflow: hidden !important;
+  }
+
+  .icon-bar {
+    background-color: white;
+  }
+
+}
+
+
+
+@media screen and (min-width: 480px) {
+  .second-photo {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .circle-measures {
+    width: 404px;
+    height: 404px;
+  }
+
+  .circle1 {
+    top: -45px;
+    left: -45px;
+  }
+
+  .circle2 {
+    bottom: -120px;
+    right: -200px;
+  }
+
+  .circle3 {
+    width: 107px;
+    height: 107px;
+    right: 120px;
+    bottom: 60px;
+  }
+
+  .flex-wraping {
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+
+  .navbar-collapse {
+    width: calc(100% + 15px);
+  }
+
+  .intro-wrapper {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  .modern-age h2 {
+    margin-top: 100px;
+    line-height: 60px;
+  }
+
+  .modern-age button {
+    width: 250px;
+  }
+
+  .photo-box .first-photo {
+    max-width: 200px;
+    float: right;
+  }
+
+  .photo-box .photo-wrapper2 {
+    max-width: 100px;
+    margin: 10px 0px 10px 10px;
+  }
+
+  .photo-box .second-photo {
+    max-width: 100px;
+    margin: 0;
+  }
+
+  .second-photo-column {
+    visibility: visible;
+  }
+
+  .logos-label {
+    margin-left: calc((100% - 720px) /2);
+    padding-right: calc((100% - 720px)/2);
+    height: 125px;
+    top: -62px;
+  }
+
+  .why_invest_wrapper .container {
+    padding-top: 20px;
+  }
+
+  .why_invest {
+    padding-top: 0;
+  }
+
+  .why_invest h3 {
+    margin-bottom: 17px;
+  }
+
+  .why_invest p+p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .service {
+    padding-top: 40px;
+  }
+
+  .single-service {
+    margin-bottom: 80px;
+  }
+
+  .stories {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .stories h3 {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .stories p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .story-box1 p {
+    font-size: 33px;
+    line-height: 40px;
+  }
+
+  .stories .bg-circle3 {
+    bottom: -60px;
+  }
+
+  .footer_logo {
+    display: inline-block;
+    margin-bottom: 11px;
+  }
+
+  .nav-wrapper {
+    float: right;
+  }
+
+  .copy {
+    text-align: left;
+    max-width: 172px;
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  .nav-block {
+    padding-left: 65px;
+    padding-right: 0;
+  }
+
+  footer a {
+    font-size: 16px;
+  }
+
+  .main-footer .bg-circle3 {
+    top: -344px;
+  }
+
+  .main-footer .bg-circle2 {
+    width: 560px;
+    height: 560px;
+    bottom: -320px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .header-and-intro {
+    padding-top: 30px;
+  }
+
+  .intro-wrapper {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+
+  .modern-age h2 {
+    font-size: 60px;
+    line-height: 70px;
+    max-width: 540px;
+  }
+
+  .modern-age p {
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 500px;
+    margin-bottom: 48px;
+  }
+
+  .photo-box {
+    padding-left: calc(100% - 962px);
+  }
+
+  .photo-box .second-photo {
+    max-width: 100px;
+    margin: 10px 0;
+  }
+
+  .photo-box .photo-wrapper2 {
+    margin: 0;
+  }
+
+  .logos-label {
+    margin-left: calc((100% - 960px) /2);
+    padding-right: calc((100% - 960px)/2);
+    height: 200px;
+    border-bottom-left-radius: 60px;
+    top: -67px;
+  }
+
+  .flex-wraping {
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+
+  .story-box1 p {
+    font-size: 37px;
+    line-height: 53px;
+  }
+
+
+  .photo-box .first-photo {
+    margin-right: 5px;
+  }
+
+  .photo-box .photo-wrapper3 {
+    margin-left: calc(66.66% - 155px);
+  }
+
+  .why_invest_wrapper {
+    background-image: url(./../img/silver-circle2.svg);
+  }
+
+  .why_invest_wrapper .container {
+    padding-top: 85px;
+  }
+
+  .why_invest {
+    padding-right: 83px;
+  }
+
+  .why_invest h3,
+  h3,
+  .stories h3 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .why_invest h3 {
+    max-width: 297px;
+    margin-bottom: 33px;
+  }
+
+  .why_invest p,
+  .why_invest p+p {
+    line-height: 27px;
+    font-size: 18px;
+    margin-bottom: 33px;
+  }
+
+  .advertizers-affiliates p,
+  .single-service p,
+  .stories p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-bottom: 33px;
+  }
+
+  .advertizers-affiliates a {
+    font-size: 16px;
+  }
+
+  .service {
+    padding-top: 150px;
+  }
+
+  .service h3 {
+    margin-bottom: 24px;
+  }
+
+  .service>p {
+    margin-bottom: 75px;
+  }
+
+  .single-service {
+    margin-bottom: 150px;
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  .stories {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+
+  .row_first p {
+    font-size: 18px;
+    margin-bottom: 80px;
+  }
+
+  .story-box .client-position {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .story-box .client-name {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .story-box1 p {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .story-box1 .client-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .story-box1 .client-position {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .circle1 {
+    left: calc((100% - 1600px) / 2);
+  }
+
+  .modern-age h2 {
+    margin-top: 75px;
+  }
+
+  .photo-box {
+    padding-left: calc(100% - 1140px);
+  }
+
+  .intro-wrapper {
+    padding-right: 0;
+  }
+
+  .logos-label {
+    margin-left: calc((100% - 1140px) /2);
+    padding-left: 80px;
+    padding-right: calc((100% - 1140px)/2);
+  }
+
+  .why_invest p+p {
+    margin-top: 0;
+  }
+
+  .service {
+    padding-top: 120px;
+  }
+
+  .service {
+    padding-top: 120px;
+  }
+
+  .single-service {
+    margin-bottom: 170px;
+  }
+
+  .main-footer .bg-circle2 {
+    left: calc((100% - 1500px) / 2)
+  }
+
+}

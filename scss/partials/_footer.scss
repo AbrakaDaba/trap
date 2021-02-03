@@ -1,0 +1,43 @@
+ footer{
+     padding: 60px 0px 30px 0px;
+     background-color: $eggplantTwo;
+     margin: 0;
+     line-height: 3;
+     position: relative;
+     overflow: hidden;
+     z-index: 0;
+ }
+.footer_logo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ footer a, .copy{
+    color: $lightGreyBlue;
+    font-size: 14px;
+    font-family: op-reg;
+ }
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.nav-block{
+    width: auto;
+}
+
+.nav-block li:first-of-type a{
+    font-family: op-b;
+    color: $white;
+}
+
+.copy{
+    font-size: 10px;
+    text-align: center;
+}
+
+ .copy:first-of-type{
+     display: none;
+ }

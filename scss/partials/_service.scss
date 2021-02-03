@@ -1,0 +1,24 @@
+.service {
+    padding-top: 80px;
+    background-color: $paleGrey;
+    text-align: center;
+    color: $darkIndigo;
+}
+
+.service>p {
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.services {
+    margin: 0 auto;
+}
+
+.single-service {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.single-service p {
+    font-size: 13px;
+}

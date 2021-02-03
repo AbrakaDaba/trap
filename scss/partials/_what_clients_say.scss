@@ -1,0 +1,140 @@
+.stories{
+    padding: 60px 0px;
+    background-color: rgb(10, 6, 24);
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.stories .row_first{
+    margin-bottom: 50px;
+}
+
+.stories h3, .stories p{
+    color: $white;
+}
+
+.stories h3{
+    margin: 0 auto;
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+
+.stories p{
+    font-family: op-reg;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.row_first p{
+    font-size: 16px;
+    max-width: calc(100% - 30px);
+    margin: 0 auto;
+}
+
+.stories .flex-wrapping{
+    -webkit-column-count: 1;
+    column-count: 1;
+}
+
+.story_box_wrapper{
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid; 
+}
+
+.client-info{
+    display: flex;
+}
+
+.client-name{
+   font-size: 13px;
+}
+
+.client-position{
+    font-size: 11px;
+    color: $babyPurple;
+}
+
+.client-photo{
+    margin-right: 15px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/warby-parker-basso-2015-feat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.story-box1 .client-photo{ 
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/warby-parker-basso-2015-feat.png");
+    background-position: -5px center;
+    margin-right: 20px;
+}
+
+.story-box1{
+    color: $white;
+    margin-bottom: 15px;
+    background-color: $purpleBlue;
+    padding: 15px 30px 30px 30px;
+    display: table;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.story-box1 .client-name{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.story-box1 p{
+    font-family: op-sb;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.story-box{
+    color: $white;
+    background-color: $eggplant;
+    display: table;
+    min-width: 100%;
+    padding: 10px 20px 20px 20px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.client2{
+    background-image: url(./../img/blythe_2017.png);
+}
+.client3{
+    background-image: url(./../img/Health-On-Line-Headshots-032.png);
+}
+.client4{
+    background-image: url(./../img/Denise.png);
+}
+.client5{
+    background-image: url(./../img/4205.png);
+}
+.client6{
+    background-image: url(./../img/headshot.png);
+}
+.client7{
+    background-image: url(./../img/Los-Angeles-Headshot-Photography-8.png);
+}
+
+
